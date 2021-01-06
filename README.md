@@ -2,7 +2,9 @@
 
 This is a 1 player game of TicTacToe againt an AI. The AI is implemented using the minimax algorithm that choses the best possible move for any given scenario.
 
-    It is almost imposible to beat this AI as in the worst case scenario this bot will follow a path that will result in a draw.
+It is almost imposible to beat this AI as in the worst case scenario this bot will follow a path that will result in a draw.
+
+![MiniMax Algo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fminimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move%2F&psig=AOvVaw0_bBQP5IdovaU6R8hS-mce&ust=1610046981333000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCO7cSCiO4CFQAAAAAdAAAAABAD)
 
 
 ## Getting Started
@@ -44,7 +46,7 @@ Note: Here 'a.out' is the name of the executable file.
 
 ## Game in action 
 
-![GIF]()
+![GIF](https://github.com/vini7148/TicTacToe/blob/main/Assets/draw.gif)
 
 
 ## Authors
