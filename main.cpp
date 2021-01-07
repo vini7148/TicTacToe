@@ -2,17 +2,30 @@
 
 int main()
 {
-    gameloop G;
+    gameloop* G = new gameloop;
 
-    G.init();
+    G->init();
 
-    while (G.run())
+    while (G->run())
     {
         // break on draw or win
     }
 
+
     std::cout << "\n\n\tEnd of Game\n";
-    system("pause");
+
+
+    std::cout << "\n\tDo you wish to restart(Y/N)?\n\t";
+    
+    char c;
+    std::cin >> c; 
+
+
+    delete G;
+
+
+    if (c == 'Y' || c == 'y')
+        main();
     
 
     return 0;

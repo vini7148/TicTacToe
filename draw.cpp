@@ -13,7 +13,7 @@ draw::draw()
 
 draw::~draw()
 {
-    // clear;
+    clear;
 }
 
 bool draw::init()
@@ -24,8 +24,10 @@ bool draw::init()
 
     for (int i = 0; i < 5; i++)
     {
-        cout << "\t" << ref_bd[i] << "\t|\t" << print_bd[i] << "\n";
+        cout << "\t" << ref_bd[i] << "\t\t|\t" << print_bd[i] << "\n";
     }
+
+    cout << "\n";
 
     return true;
 }
@@ -52,8 +54,10 @@ bool draw::update()
 
     for (int i = 0; i < 5; i++)
     {
-        cout << "\t" << ref_bd[i] << "\t|\t" << print_bd[i] << "\n";
+        cout << "\t" << ref_bd[i] << "\t\t|\t" << print_bd[i] << "\n";
     }
+
+    cout << "\n";
 
     return true;
 }

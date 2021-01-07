@@ -42,6 +42,7 @@ bool gameloop::input()
         // Sleep(1000);
         x = RR.ret_x();
         y = RR.ret_y();
+        // cout << "\n>>" << x << " " << y << " AI\n"; 
     }
     
     // cout << "\n" << x << " " << y << "\n"; 
